@@ -4,12 +4,11 @@ view.h
 
 Rôle : prototypes des fonctions de view.
 */
-#ifndef aire_h
-#define aire_h
+#ifndef AIRE_H
+#define AIRE_H
 
-#include <stdio.h>
 void menu();
 int choixUtilisateur();
-double aireRectangle(double largeur, double hauteur);
+double aireRectangle(double largeur, double longueur);
 void afficherInfos(const char *infos);
 #endif

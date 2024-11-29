@@ -1,5 +1,6 @@
-#include <stdio.h>
+#include "../headers/main.h"
 #include "../headers/aire.h"
+/* Contenu de votre fichier .h (autres include, prototypes, define...) */
 
 int main(int arg, char *argv[])
 {
