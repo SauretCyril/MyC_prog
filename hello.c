@@ -9,7 +9,6 @@ int main(int argc, char *argv[])
     printf("**** B A M ****\n"); // Là il se prend un grand coup sur la tête
     nombreDeVies -= 1;           // Il vient de perdre une vie !
     printf("Ah desole, il ne vous reste plus que %d vies maintenant !\n\n", nombreDeVies);
-    double poids = 0;
-    scanf("%lf", &poids);
+
     return 0;
 }
